@@ -14,7 +14,11 @@ public class Remove
         	 System.out.println(list); /*  [10,20,30,40,50]	*/
 		 list.remove(2);           /*  index wise removal and it starts from 0	*/
 		 System.out.println(list); /*  [10,20,40,50]   */
-			
+		 
+		 int data=list.remove(0);
+		 System.out.println(data); // 10
+ 		 System.out.println(list); /* [20,40,50]       */
+		 
 		 /*
 		 for only 'String' we can use both index as well as the value for removal
 		 */	
